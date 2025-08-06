@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "node",
+      "request": "launch",
+      "name": "Run tsconfck",
+      "runtimeExecutable": "tsconfck",
+      "cwd": "${workspaceFolder}",
+      "args": []
+    },
+    {
+      "type": "node-terminal",
+      "request": "launch",
+      "name": "Run Astro dev server",
+      "command": "./node_modules/.bin/astro dev"
+    },
+    {
       "command": "./node_modules/.bin/astro dev",
       "name": "Development server",
       "request": "launch",

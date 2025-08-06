@@ -1,0 +1,18 @@
+---
+import Button from '../components/Button.astro';
+import Logo from '../components/Logo.astro';
+---
+
+<section id="hero" class="relative bg-cover bg-center h-screen" style="background-image: url('/images/vpn.jpg');">
+  <div class="container mx-auto px-6 py-20 flex flex-col items-center justify-center h-full text-center text-white">
+    <Logo class="mb-8 w-32 h-auto" />
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Ultrafast VPN</h1>
+    <p class="text-lg md:text-2xl mb-8 max-w-2xl">
+      Make your business secure and private with our high-speed VPN solution. Enjoy seamless connectivity and robust security features designed for modern enterprises.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4">
+      <Button variant="primary" href="#pricing">Book a demo</Button>
+      <Button variant="secondary" href="#overview">Learn more</Button>
+    </div>
+  </div>
+</section>
